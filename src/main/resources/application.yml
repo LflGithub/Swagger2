@@ -1,0 +1,11 @@
+# Tomcat
+server:
+    tomcat:
+        uri-encoding: UTF-8
+    port: 8080
+    servlet:
+        context-path: /swagger2
+
+#根据配置读取是否开启swagger文档，针对测试与生产环境采用不同的配置
+swagger:
+    enable: true
